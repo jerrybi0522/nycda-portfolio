@@ -31,11 +31,18 @@ li {
 
 article {
 	float: right;
-	width: 73%;
+	width: 74%;
 	background-color: white;
 }
 
 header {
 	text-align: center;
 	background-color: yellow;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
 }
