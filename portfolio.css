@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: blue;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+nav {
+	width: 30%;
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+}
+
+article {
+	display: inline-block;
+	width: 65%;
+}
+
+header {
+	text-align: center;
+}
