@@ -5,18 +5,20 @@
 
 body {
 	background-color: #000080;
+	font-family: "Helvetica";
 }
 
 #wrapper {
 	width: 80%;
 	margin: 0 auto;
-	background-color: white;
 }
 
 nav {
-	width: 30%;
+	width: 20%;
 	display: inline-block;
 	background-color: #89cff0;
+	position: fixed;
+	height: 100%;
 }
 
 li {
@@ -24,10 +26,12 @@ li {
 }
 
 article {
-	display: inline-block;
-	width: 65%;
+	float: right;
+	width: 75%;
+	background-color: white;
 }
 
 header {
 	text-align: center;
+	background-color: yellow;
 }
